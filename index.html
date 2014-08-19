@@ -155,32 +155,47 @@ Password:&nbsp;&nbsp;&nbsp;<input type="password" name="t11" placeholder="Enter 
     </div>
 </div>
 
-    <div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+<div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
-            <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
-            <h4 class="modal-title" id="myModalLabel">SIGN UP FOR A NEW ACCOUNT</h4>
+        <form class="form-horizontal" role="form">
+        <div style="padding-left:30px;padding-top:30px;padding-bottom:20px;">
+        <h3 style="text-align:center;padding-bottom:20px">SIGN UP FOR A NEW ACCOUNT</h3>
+          <div class="form-group">
+            <label for="name" class="col-sm-2 control-label">Name</label>
+            <div class="col-sm-8">
+              <input type="text" class="form-control" id="name" placeholder="Name">
             </div>
-            <div class="modal-body">
-                <h3></h3>
-                FULL NAME:&nbsp;&nbsp;&nbsp;<input type="text" name="t1"class="span3" placeholder="Your Full Name"><br><br>
-USERNAME:&nbsp;&nbsp;&nbsp;<input type="text" name="t2"class="span3" placeholder="UserName" ><br><br>
-EMAIL ID:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="t3" class="span3" placeholder="Your EmailId"><br><br>
-PASSWORD:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="password" name="p1" class="span3" placeholde="Enter New Password"><br><br>
-<b>ENTER YOUR HANDLES:(Leave black if not applicable)</b><br><br>
-CODECHEF: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="t4" class="span3" placeholder="Enter Handle"><br><br>
-TOPCODER: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="t5" class="span3" placeholder="Enter Handle"><br><br>
-CODEFORCES: <input type="text" name="t6" class="span3" placeholder="Enter Handle"><br><br>
-<b>Note:</b>1.You will have the option of adding friends once you successfully create your &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;account.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.Username is subject to availability.<br>
+          </div>
+          <div class="form-group">
+            <label for="username" class="col-sm-2 control-label">Username</label>
+            <div class="col-sm-8">
+              <input type="text" class="form-control" id="username" placeholder="Username">
             </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">SUBMIT</button>
+          </div>
+          <div class="form-group">
+            <label for="inputEmail" class="col-sm-2 control-label">Email</label>
+            <div class="col-sm-8">
+              <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputPassword" class="col-sm-2 control-label">Password</label>
+            <div class="col-sm-8">
+              <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+              <button type="submit" class="btn btn-primary">Sign Up</button>
+              <!-- <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button> -->
+            </div>
+          </div>
+        </div>
+        </form>
         </div>
     </div>
-  </div>
 </div>
 
     <!-- Portfolio Grid Section -->
